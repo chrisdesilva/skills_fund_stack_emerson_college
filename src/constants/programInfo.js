@@ -75,7 +75,7 @@ export const faq = {
   loanRange: [
     {
       programName: "Data Science & Analytics",
-      maxAmount: "$10,000",
+      maxAmount: "$9,985",
       col: false,
       colAmount: "$6,000",
     },
@@ -90,7 +90,7 @@ export const schoolLogo = logo // go to header.js if height needs adjustment
 
 export const schoolName = "Emerson College"
 
-export const schoolURL = "https://www.SCHOOLWEBSITE.com/" // update with url of school's website
+export const schoolURL = "#" // update with url of school's website
 
 export const skfURL = "https://emerson.skills.fund" // update with Skills Fund url
 
@@ -125,8 +125,8 @@ export const selectAProgram = "program_name" // update school name to match form
 
 // ***** BEGIN LOAN APP AND CALC INFO *****
 
-export const defaultLoanAmount = 10000
-export const placeholder = "$10,000"
+export const defaultLoanAmount = 9985
+export const placeholder = "$9,985"
 export const interestRates = {
   ir36: 8.99,
   ir60: 10.99,
@@ -140,7 +140,7 @@ export const programLoanInfo = [
     url: "https://my.skills.fund/application?lenderCode=SFSESUDSA20",
     loanInfo: {
       // match loanInfo in first metro below
-      maxLoanAmt: 10000,
+      maxLoanAmt: 9985,
       loanTerm36: true,
       loanTerm60: true,
       "0": {
@@ -162,7 +162,7 @@ export const programLoanInfo = [
       {
         location: "Metro 1",
         loanInfo: {
-          maxLoanAmt: 10000,
+          maxLoanAmt: 9985,
           loanTerm36: true,
           loanTerm60: true,
           "0": {
@@ -198,7 +198,7 @@ export const programLoanInfo = [
     url: "https://my.skills.fund/application?lenderCode=LENDERCODE3",
     loanInfo: {
       // match loanInfo in first metro below
-      maxLoanAmt: 9995,
+      maxLoanAmt: 9985,
       loanTerm36: true,
       loanTerm60: true,
       "0": {
@@ -220,7 +220,7 @@ export const programLoanInfo = [
       {
         location: "Metro A",
         loanInfo: {
-          maxLoanAmt: 9995,
+          maxLoanAmt: 9985,
           loanTerm36: true,
           loanTerm60: true,
           "0": {
@@ -275,7 +275,7 @@ export const programLoanInfo = [
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
 export const programMaxText =
-  "Choose the loan amount that works best for you. Borrow up to $10,000 in tuition for Emerson College's Data Science & Analytics program."
+  "Choose the loan amount that works best for you. Borrow up to $9,985 in tuition for Emerson College's Data Science & Analytics program."
 
 export const paymentTable = {
   headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
