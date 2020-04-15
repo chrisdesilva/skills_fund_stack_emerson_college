@@ -11,7 +11,7 @@ export const schoolInfo = {
   // term details section
   interestRate36: "8.99%",
   interestRate60: "10.99%",
-  APRRange36: "11.59 - 12.87%",
+  APRRange36: "11.59 - 12.36%",
   APRRange60: "12.84 - 13.14%",
   interestOnly: [
     {
@@ -136,8 +136,8 @@ export const moreThanSixPrograms = false // set to true if there are 7 or more p
 export const programLoanInfo = [
   // update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
   {
-    name: "Data Science & Analytics",
-    url: "https://my.skills.fund/application?lenderCode=SFSESUDSA20",
+    name: "Voice Technology & Coding",
+    url: "https://my.skills.fund/application?lenderCode=SFECVTC20",
     loanInfo: {
       // match loanInfo in first metro below
       maxLoanAmt: 9985,
@@ -275,7 +275,7 @@ export const programLoanInfo = [
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
 export const programMaxText =
-  "Choose the loan amount that works best for you. Borrow up to $9,985 in tuition for Emerson College's Data Science & Analytics program."
+  "Choose the loan amount that works best for you. Borrow up to $9,985 in tuition for Emerson College's Voice Technology & Coding program."
 
 export const paymentTable = {
   headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
