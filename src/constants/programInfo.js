@@ -134,8 +134,8 @@ export const faq = {
   // max loan amounts by program for faq1
   loanRange: [
     {
-      programName: "Data Science & Analytics",
-      maxAmount: "$9,985",
+      programName: "Voice Technology & Coding",
+      maxAmount: "$11,995",
       col: false,
       colAmount: "$6,000",
     },
@@ -250,85 +250,6 @@ export const programLoanInfo = [
             apr60: 12.51,
           },
           "Immediate Repayment": null,
-        },
-      },
-    ],
-  },
-  {
-    name: "Clinical Trial Management",
-    url: "https://my.skills.fund/application?lenderCode=LENDERCODE3",
-    loanInfo: {
-      // match loanInfo in first metro below
-      maxLoanAmt: 9985,
-      loanTerm36: true,
-      loanTerm60: true,
-      "Interest Only": {
-        // interest-only
-        k: 7,
-        apr36: 11.5,
-        apr60: 12.8,
-      },
-      "Immediate Repayment": {
-        apr36: 12.36,
-        apr60: 13.14,
-      },
-    },
-    defaultLoanType: "Interest Only", // leave at 0 for interest-only, set to 1 for immediate repayment
-    showMetros: false,
-    showLoanTypes: true,
-    loanTypes: ["Interest Only", "Immediate Repayment"],
-    locations: ["Metro A", "Metro B", "Metro C"],
-    metros: [
-      {
-        location: "Metro A",
-        loanInfo: {
-          maxLoanAmt: 9985,
-          loanTerm36: true,
-          loanTerm60: true,
-          "Interest Only": {
-            // interest-only
-            k: 7,
-            apr36: 11.5,
-            apr60: 12.8,
-          },
-          "Immediate Repayment": {
-            apr36: 12.36,
-            apr60: 13.14,
-          },
-        },
-      },
-      {
-        location: "Metro B",
-        loanInfo: {
-          maxLoanAmt: 15545,
-          loanTerm36: true,
-          loanTerm60: true,
-          "Interest Only": {
-            k: 5,
-            apr36: 11.16,
-            apr60: 12.51,
-          },
-          "Immediate Repayment": {
-            apr36: 11.25,
-            apr60: 12.55,
-          },
-        },
-      },
-      {
-        location: "Metro C",
-        loanInfo: {
-          maxLoanAmt: 20545,
-          loanTerm36: true,
-          loanTerm60: true,
-          "Interest Only": {
-            k: 5,
-            apr36: 11.16,
-            apr60: 12.51,
-          },
-          "Immediate Repayment": {
-            apr36: 11.25,
-            apr60: 12.55,
-          },
         },
       },
     ],
